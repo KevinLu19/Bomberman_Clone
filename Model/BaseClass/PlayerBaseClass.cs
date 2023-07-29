@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace BomberMan;
 
-namespace BomberMan.Model.BaseClass;
-internal class PlayerBaseClass
+public class Enchantress : PlayableCharacter
 {
+    public Enchantress()
+    {
+
+    }
+
 }

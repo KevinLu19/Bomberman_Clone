@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace BomberMan;
 
-namespace BomberMan.Model;
-internal class Player
+public class PlayableCharacter
 {
+    public Texture2D character_texture;
+    public Vector2 position;
+
 }

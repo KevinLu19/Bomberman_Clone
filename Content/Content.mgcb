@@ -13,7 +13,7 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin SNES - Super Bomberman 5 JPN - Battle Stage 03.png
+#begin Bomberman_Starting_Map.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -23,5 +23,5 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:SNES - Super Bomberman 5 JPN - Battle Stage 03.png
+/build:Bomberman_Starting_Map.png
 

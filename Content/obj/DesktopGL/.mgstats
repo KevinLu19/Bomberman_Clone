@@ -1,2 +1,2 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/SNES - Super Bomberman 5 JPN - Battle Stage 03.png","C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/bin/DesktopGL/SNES - Super Bomberman 5 JPN - Battle Stage 03.xnb","TextureProcessor","Texture2DContent",7841,213077,0.1619726
+"C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/Bomberman_Starting_Map.png","C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/bin/DesktopGL/Bomberman_Starting_Map.xnb","TextureProcessor","Texture2DContent",7841,213077,0.1362117
