@@ -5,8 +5,28 @@
   <Config />
   <SourceFiles>
     <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/Bomberman_Starting_Map.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/Enchantress/Attack_1.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/Enchantress/Attack_2.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/Enchantress/Attack_3.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/Enchantress/Attack_4.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/Enchantress/Dead.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/Enchantress/Hurt.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/Enchantress/Idle.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/Enchantress/Jump.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/Enchantress/Run.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/Enchantress/Walk.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

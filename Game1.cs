@@ -1,4 +1,7 @@
 ﻿
+using System.Net.Mime;
+using System.Security.Cryptography.X509Certificates;
+
 namespace BomberMan;
 public class Game1 : Game
 {
@@ -6,9 +9,16 @@ public class Game1 : Game
     Point game_resolution = new Point(1020, 800);
     RenderTarget2D render_target;
     Rectangle render_target_destination;
-    
+
+    // Player Variables
+    public Enchantress _enchantress_obj;
+    private Texture2D _enchantress_texture;
+
+    // Game Manager
+    private GameManager _game_manager;
 
     // Background map
+    // Still haven't found a way to stretch the background sprite with the game window.
     private Texture2D _game_map;
     Rectangle? source_rectangle;
 
@@ -36,6 +46,13 @@ public class Game1 : Game
 
         render_target = new RenderTarget2D(GraphicsDevice, game_resolution.X, game_resolution.Y);
         render_target_destination = GetRenderTargetDestination(game_resolution, _graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight);
+
+        // Globals variable to map the content.
+        Globals.Content = Content;
+
+        // Game Manager Class
+        _game_manager = new();
+        _game_manager.Init();
 
         base.Initialize();
     }
@@ -79,6 +96,9 @@ public class Game1 : Game
 
         // TODO: use this.Content to load your game content here
         _game_map = Content.Load<Texture2D>("Bomberman_Starting_Map");
+        _enchantress_texture = Content.Load<Texture2D>("Enchantress/Idle");
+        _enchantress_obj = new Enchantress(_enchantress_texture);
+        Globals.SpriteBatch = _spriteBatch;
     }
 
     protected override void Update(GameTime gameTime)
@@ -87,6 +107,9 @@ public class Game1 : Game
             Exit();
 
         // TODO: Add your update logic here
+        _enchantress_obj.Update();
+
+        _game_manager.Update();
 
         base.Update(gameTime);
     }
@@ -99,6 +122,9 @@ public class Game1 : Game
         _spriteBatch.Begin();
         _spriteBatch.Draw(_game_map, new Vector2(0,0), source_rectangle, Color.White, 0f, Vector2.Zero, 4f, SpriteEffects.None, 0f);
 
+        _enchantress_obj.Draw(_spriteBatch);
+
+        //_game_manager.Draw();
 
         _spriteBatch.End();
         base.Draw(gameTime);

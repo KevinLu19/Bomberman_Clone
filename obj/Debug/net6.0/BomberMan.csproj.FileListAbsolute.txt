@@ -24,3 +24,13 @@ C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\obj\Debug\net6.0\refi
 C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\obj\Debug\net6.0\BomberMan.pdb
 C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\obj\Debug\net6.0\BomberMan.genruntimeconfig.cache
 C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\obj\Debug\net6.0\ref\BomberMan.dll
+C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\bin\Debug\net6.0\Content\Enchantress\Attack_1.xnb
+C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\bin\Debug\net6.0\Content\Enchantress\Attack_2.xnb
+C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\bin\Debug\net6.0\Content\Enchantress\Attack_3.xnb
+C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\bin\Debug\net6.0\Content\Enchantress\Attack_4.xnb
+C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\bin\Debug\net6.0\Content\Enchantress\Dead.xnb
+C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\bin\Debug\net6.0\Content\Enchantress\Hurt.xnb
+C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\bin\Debug\net6.0\Content\Enchantress\Idle.xnb
+C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\bin\Debug\net6.0\Content\Enchantress\Jump.xnb
+C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\bin\Debug\net6.0\Content\Enchantress\Run.xnb
+C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\bin\Debug\net6.0\Content\Enchantress\Walk.xnb
