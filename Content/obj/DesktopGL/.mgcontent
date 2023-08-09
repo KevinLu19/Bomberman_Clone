@@ -15,8 +15,10 @@
     <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/Enchantress/Jump.png</File>
     <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/Enchantress/Run.png</File>
     <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/Enchantress/Walk.png</File>
+    <File>C:/Users/Kevin/Desktop/ProgrammingProject/csharp/BomberMan/Content/Rock.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

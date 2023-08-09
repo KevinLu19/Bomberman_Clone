@@ -34,3 +34,4 @@ C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\bin\Debug\net6.0\Cont
 C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\bin\Debug\net6.0\Content\Enchantress\Jump.xnb
 C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\bin\Debug\net6.0\Content\Enchantress\Run.xnb
 C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\bin\Debug\net6.0\Content\Enchantress\Walk.xnb
+C:\Users\Kevin\Desktop\ProgrammingProject\csharp\BomberMan\bin\Debug\net6.0\Content\Rock.xnb

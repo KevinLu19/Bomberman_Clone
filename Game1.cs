@@ -1,8 +1,4 @@
-﻿
-using System.Net.Mime;
-using System.Security.Cryptography.X509Certificates;
-
-namespace BomberMan;
+﻿namespace BomberMan;
 public class Game1 : Game
 {
     // Resolution
@@ -13,6 +9,10 @@ public class Game1 : Game
     // Player Variables
     public Enchantress _enchantress_obj;
     private Texture2D _enchantress_texture;
+
+    // Rock Obstacles
+    public Rock _rock_obj;
+    private Texture2D _rock_texture;
 
     // Game Manager
     private GameManager _game_manager;
@@ -27,7 +27,6 @@ public class Game1 : Game
 
     public Game1()
     {
-
         _graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
         IsMouseVisible = true;
@@ -98,6 +97,10 @@ public class Game1 : Game
         _game_map = Content.Load<Texture2D>("Bomberman_Starting_Map");
         _enchantress_texture = Content.Load<Texture2D>("Enchantress/Idle");
         _enchantress_obj = new Enchantress(_enchantress_texture);
+
+        _rock_texture = Content.Load<Texture2D>("Rock");
+        _rock_obj = new Rock(_rock_texture);
+
         Globals.SpriteBatch = _spriteBatch;
     }
 
@@ -123,6 +126,7 @@ public class Game1 : Game
         _spriteBatch.Draw(_game_map, new Vector2(0,0), source_rectangle, Color.White, 0f, Vector2.Zero, 4f, SpriteEffects.None, 0f);
 
         _enchantress_obj.Draw(_spriteBatch);
+        _rock_obj.Draw(_spriteBatch);
 
         //_game_manager.Draw();
 

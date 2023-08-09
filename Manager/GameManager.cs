@@ -2,6 +2,7 @@
 
 public class GameManager
 {
+    // Playable Charaters
     private Enchantress _enchantress;
 
     public void Init()
