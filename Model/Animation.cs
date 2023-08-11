@@ -2,7 +2,6 @@
 
 namespace BomberMan;
 
-
 public class Animation
 {
     private readonly Texture2D _texture;

@@ -95,8 +95,9 @@ public class Game1 : Game
 
         // TODO: use this.Content to load your game content here
         _game_map = Content.Load<Texture2D>("Bomberman_Starting_Map");
-        _enchantress_texture = Content.Load<Texture2D>("Enchantress/Idle");
-        _enchantress_obj = new Enchantress(_enchantress_texture);
+
+        //_enchantress_texture = Content.Load<Texture2D>("Enchantress/Idle");
+        //_enchantress_obj = new Enchantress(_enchantress_texture);
 
         _rock_texture = Content.Load<Texture2D>("Rock");
         _rock_obj = new Rock(_rock_texture);
@@ -110,8 +111,9 @@ public class Game1 : Game
             Exit();
 
         // TODO: Add your update logic here
-        _enchantress_obj.Update();
+        //_enchantress_obj.Update();
 
+        Globals.Update(gameTime);
         _game_manager.Update();
 
         base.Update(gameTime);
@@ -125,10 +127,10 @@ public class Game1 : Game
         _spriteBatch.Begin();
         _spriteBatch.Draw(_game_map, new Vector2(0,0), source_rectangle, Color.White, 0f, Vector2.Zero, 4f, SpriteEffects.None, 0f);
 
-        _enchantress_obj.Draw(_spriteBatch);
-        _rock_obj.Draw(_spriteBatch);
+        //_enchantress_obj.Draw(_spriteBatch);
+        //_rock_obj.Draw(_spriteBatch);
 
-        //_game_manager.Draw();
+        _game_manager.Draw();
 
         _spriteBatch.End();
         base.Draw(gameTime);

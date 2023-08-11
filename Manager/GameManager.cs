@@ -18,7 +18,7 @@ public class GameManager
 
     public void Draw()
     {
-        //_enchantress.Draw();
+        _enchantress.Draw();
     }
 
 }

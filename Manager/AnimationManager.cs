@@ -31,6 +31,7 @@ public class AnimationManager
 
     public void Draw(Vector2 position)
     {
+        // This draws each of the frame.
         _anims[_lastKey].Draw(position);
     }
 
