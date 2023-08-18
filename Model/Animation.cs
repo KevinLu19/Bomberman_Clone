@@ -12,13 +12,13 @@ public class Animation
     private float _frame_time_left;
     private bool _active = true;
 
-    public Animation(Texture2D texture, int frame_x, int frame_y, float frame_time, int row = 1) 
+    public Animation(Texture2D texture, int sprite_sheet_num_of_sprites, int sprite_sheet_height, float frame_time, int row = 1) 
     {
         _texture = texture;
         _frame_time = frame_time;
-        _frames = frame_x;
-        var frame_width = _texture.Width / frame_x;
-        var frame_height = _texture.Height / frame_y;
+        _frames = sprite_sheet_num_of_sprites;
+        var frame_width = _texture.Width / sprite_sheet_num_of_sprites;
+        var frame_height = _texture.Height / sprite_sheet_height;
 
         for (int i = 0; i < _frames; i++)
         {
