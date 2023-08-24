@@ -7,8 +7,8 @@ public class Enchantress : PlayableCharacterManager
     private Rectangle _source_rectangle;
 
     private readonly float _speed = 6f;
-    private Single rotation = 0;
-    private Single scale = 1.2f;
+    //private Single rotation = 0;
+    //private Single scale = 1.2f;
 
     private readonly Animation _idle_animation;
     private readonly Animation _run_animation;
@@ -22,7 +22,7 @@ public class Enchantress : PlayableCharacterManager
         _run_texture ??= Globals.Content.Load<Texture2D>("Enchantress/Run");
 
         _idle_animation = new(_idle_texture, 5, 1, 0.3f);
-        _run_animation = new(_run_texture, 8, 1, 0.2f);
+        _run_animation = new(_run_texture, 8, 1, 0.3f);
 
         _enchantress_position = new Vector2(60, 100);
         _source_rectangle = new(38, 61, 51, 67);
@@ -35,11 +35,14 @@ public class Enchantress : PlayableCharacterManager
         //{
         //    _idle_animation.Update();
         //}
-        _idle_animation.Update();
 
-        if (_enchantress_position.X > 0)
+        if (_enchantress_position.X > 0 || _enchantress_position.X < 0)
         {
             _run_animation.Update();
+        }
+        else
+        {
+            _idle_animation.Update();
         }
 
         // Need to add when the user pressed a or d, start the run animation. Only animate when character is moving.
@@ -48,14 +51,16 @@ public class Enchantress : PlayableCharacterManager
         {
             _enchantress_position += Vector2.Normalize(InputManager.Direction) * _speed;
 
-            
         }
         
     }
-
+    
+    // Use the run animation when player moves left to right. Otherwise, use idle animation to go up and down.
     public void Draw()
     {
         _idle_animation.Draw(_enchantress_position);
+
+       
     }
 
 }

@@ -99,8 +99,8 @@ public class Game1 : Game
         //_enchantress_texture = Content.Load<Texture2D>("Enchantress/Idle");
         //_enchantress_obj = new Enchantress(_enchantress_texture);
 
-        _rock_texture = Content.Load<Texture2D>("Rock");
-        _rock_obj = new Rock(_rock_texture);
+        //_rock_texture = Content.Load<Texture2D>("Rock");
+        //_rock_obj = new Rock(_rock_texture);
 
         Globals.SpriteBatch = _spriteBatch;
     }

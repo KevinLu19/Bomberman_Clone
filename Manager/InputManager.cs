@@ -13,10 +13,10 @@ public static class InputManager
 
         if (keyboardState.GetPressedKeyCount() > 0)
         {
-            if (keyboardState.IsKeyDown(Keys.A)) _direction.X--;
-            if (keyboardState.IsKeyDown(Keys.D)) _direction.X++;
-            if (keyboardState.IsKeyDown(Keys.W)) _direction.Y--;
-            if (keyboardState.IsKeyDown(Keys.S)) _direction.Y++;
+            if (keyboardState.IsKeyDown(Keys.A) || keyboardState.IsKeyDown(Keys.Left)) _direction.X--;
+            if (keyboardState.IsKeyDown(Keys.D) || keyboardState.IsKeyDown(Keys.Right)) _direction.X++;
+            if (keyboardState.IsKeyDown(Keys.W) || keyboardState.IsKeyDown(Keys.Up)) _direction.Y--;
+            if (keyboardState.IsKeyDown(Keys.S) || keyboardState.IsKeyDown(Keys.Down)) _direction.Y++;
         }
     }
 
