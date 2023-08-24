@@ -14,7 +14,7 @@ Work in Progress
 ## Credits
 Assets Used:
 
-* ![Character Sprite](https://craftpix.net/freebies/free-fantasy-chibi-female-sprites-pixel-art/)
+* [Character Sprite](https://craftpix.net/freebies/free-fantasy-chibi-female-sprites-pixel-art/)
 
 
 ## Tests
